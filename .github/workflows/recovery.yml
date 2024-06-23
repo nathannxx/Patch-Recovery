@@ -6,7 +6,7 @@ on:
       RECOVERY_URL:
         description: 'RECOVERY URL'
         required: false
-        default: 'https://transfer.sh/(RECOMMENDED)'
+        default: 'https://github.com/nathannxx/gabut/releases/download/release/recovery.img'
 
 env:
   RECOVERY_URL: https://github.com/nathannxx/gabut/releases/download/release/recovery.img
