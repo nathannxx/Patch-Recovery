@@ -2,7 +2,7 @@
 
 mkdir unpack
 cd unpack
-../magiskboot unpack ../r.img
+../magiskboot unpack ../recovery.img
 ../magiskboot cpio ramdisk.cpio extract
 # Reverse fastbootd ENG mode check
 ~runner/work/Patch-Recovery/Patch-Recovery/magiskboot hexpatch system/bin/recovery e10313aaf40300aa6ecc009420010034 e10313aaf40300aa6ecc0094 # 20 01 00 35
