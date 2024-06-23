@@ -5,11 +5,11 @@ on:
     inputs:
       RECOVERY_URL:
         description: 'RECOVERY URL'
-        required: true
+        required: false
         default: 'https://transfer.sh/(RECOMMENDED)'
 
 env:
-  RECOVERY_URL: https://oshi.at/Rpjg
+  RECOVERY_URL: https://github.com/nathannxx/gabut/releases/download/release/recovery.img
 
 jobs:
   build:
